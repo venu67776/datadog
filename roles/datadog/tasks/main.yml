@@ -8,6 +8,6 @@
 
 - name: Start datadog
   systemd:
-    name: datadog
+    name: datadog-agent
     state: restarted
     enabled: yes
